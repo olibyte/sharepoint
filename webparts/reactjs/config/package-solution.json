@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reactjs-client-side-solution",
+    "id": "5edeac93-33ad-4821-bc5f-bbfe845dadf3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/reactjs.sppkg"
+  }
+}
