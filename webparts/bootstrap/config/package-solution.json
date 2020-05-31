@@ -1,12 +1,12 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "jquery-client-side-solution",
-    "id": "9f76dd0a-9d7e-4287-9d83-d801d6a26661",
+    "name": "bootstrap-client-side-solution",
+    "id": "66f50ad8-2b97-4404-b94a-e97eccb78a11",
     "version": "1.0.0.0",
     "includeClientSideAssets": true
   },
   "paths": {
-    "zippedPackage": "solution/jquery.sppkg"
+    "zippedPackage": "solution/bootstrap.sppkg"
   }
 }

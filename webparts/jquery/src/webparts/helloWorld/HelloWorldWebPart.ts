@@ -1,3 +1,4 @@
+import * as $ from 'jquery';
 import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
@@ -9,8 +10,6 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
-import * as $ from 'jquery';
-
 export interface IHelloWorldWebPartProps {
   description: string;
 }
@@ -18,7 +17,7 @@ export interface IHelloWorldWebPartProps {
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
 
   public render(): void {
-    alert($('a').length);
+    alert( $('a').length );
     this.domElement.innerHTML = `
       <div class="${ styles.helloWorld }">
         <div class="${ styles.container }">

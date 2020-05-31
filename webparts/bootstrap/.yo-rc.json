@@ -1,8 +1,8 @@
 {
   "@microsoft/generator-sharepoint": {
     "version": "1.4.1",
-    "libraryName": "jquery",
-    "libraryId": "9f76dd0a-9d7e-4287-9d83-d801d6a26661",
+    "libraryName": "bootstrap",
+    "libraryId": "66f50ad8-2b97-4404-b94a-e97eccb78a11",
     "environment": "spo"
   }
 }

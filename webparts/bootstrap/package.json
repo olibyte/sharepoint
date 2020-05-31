@@ -1,5 +1,5 @@
 {
-  "name": "jquery",
+  "name": "bootstrap",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "~1.4.1",
+    "@microsoft/sp-webpart-base": "~1.4.1",
     "@microsoft/sp-lodash-subset": "~1.4.1",
     "@microsoft/sp-office-ui-fabric-core": "~1.4.1",
-    "@microsoft/sp-webpart-base": "~1.4.1",
     "@types/webpack-env": ">=1.12.1 <1.14.0"
   },
   "devDependencies": {
@@ -24,7 +24,6 @@
     "gulp": "~3.9.1",
     "@types/chai": ">=3.4.34 <3.6.0",
     "@types/mocha": ">=2.2.33 <2.6.0",
-    "ajv": "~5.2.2",
-    "@types/jquery": "^3.3.0"
+    "ajv": "~5.2.2"
   }
 }
